@@ -1,0 +1,73 @@
+@keyframes colorChange {
+    0% { background-color: rgb(42, 130, 42); }
+    25% { background-color: rgb(34, 84, 179); }
+    50% { background-color: rgb(179, 84, 34); }
+    75% { background-color: rgb(179, 34, 129); }
+    100% { background-color: rgb(42, 130, 42); }
+}
+
+header, footer {
+    margin: 0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    animation: colorChange 100s infinite;
+}
+
+@keyframes gradientChange {
+    0% { background: linear-gradient(to right, #2a822a, #2254b3); }
+    25% { background: linear-gradient(to right, #2254b3, #b35422); }
+    50% { background: linear-gradient(to right, #b35422, #b32281); }
+    75% { background: linear-gradient(to right, #b32281, #2a822a); }
+    100% { background: linear-gradient(to right, #2a822a, #2254b3); }
+}
+
+header, footer {
+    animation: gradientChange 100s infinite;
+}
+
+
+main {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 7, 7);
+    background-image: url('Images/Fondo1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: 5px solid red;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
+/*Carrusel*/
+.carousel-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.carousel-img {
+    max-height: 500px;
+    width: 500px;
+}
