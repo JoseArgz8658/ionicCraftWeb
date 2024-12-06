@@ -1,0 +1,57 @@
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Archivos de configuración de entorno
+.env
+*.env
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.pyo
+
+# Logs
+*.log
+*.pot
+
+# Archivos creados por herramientas de desarrollo
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.idea/
+.vscode/
+*.DS_Store
+*.coverage
+.coverage.*
+
+# Base de datos SQLite local
+db.sqlite3
+
+# Archivos de migraciones
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Archivos creados por pytest
+.pytest_cache/
+.cache/
+
+# Archivos creados por Jupyter Notebook
+.ipynb_checkpoints/
+
+# Directorios estáticos generados por collectstatic de Django
+staticfiles/
+static/
+
+# Archivos de configuración específicos del sistema operativo
+Thumbs.db
+desktop.ini
